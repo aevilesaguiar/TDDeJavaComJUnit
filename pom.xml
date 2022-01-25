@@ -5,7 +5,7 @@
 	<groupId>br.com.alura</groupId>
 	<artifactId>tdd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+<!--outra forma de adicionar JUnit através do arquivo pom-->
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
