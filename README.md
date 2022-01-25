@@ -57,4 +57,7 @@ O teste passaria, pois a diferença entre os doubles não superou o delta de 0.1
 **O JUnit tem uma classe chamada Assert e essa classe tem vários métodos estaticos**
 Ex: Assert.assertEquals(10,soma);
 
+**Por qual motivo devemos utilizar os métodos estáticos assert do JUnit, como por exemplo o assertEquals?
+- Para validar se a implementação atende aos requisitos esperados. Os métodos assert nos permitem verificar se a classe testada está executando seu comportamento conforme o esperado.
+
 
