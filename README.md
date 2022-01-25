@@ -23,3 +23,7 @@ o conceito de TDD, desenvolvimento guiado por testes,
     - Segurança ao mexer no código
     - Favorece a melhoria no código(refactoring) 
     - 
+
+- Principais vantagens do uso de testes automatizados:
+  - Garantir que o código da aplicação atende corretamente aos requisitos de negócio.(Os testes automatizados ajudam a manter a qualidade da aplicação, pois validam se os requisitos de negócio estão sendo atendidos conforme o esperado.)
+  - Facilitar a manutenção do software.(Os testes automatizados ajudam a manter a qualidade da aplicação, pois validam se os requisitos de negócio estão sendo atendidos conforme o esperado.)
