@@ -35,4 +35,5 @@ o conceito de TDD, desenvolvimento guiado por testes,
 - Criado em 1995 por kent Beck e Erich Gamma 
 - Biblioteca gratuita open Source [Código fonte- JUnit](https://github.com/junit-team/junit-team.github.io/).
 - Foco em testes de unidade(Testes unitários) o coração do JUnit
-- 
+
+**Obs:No JUnit existe essa convenção de que o nome da classe é o mesmo nome da classe que você está testando, no caso da nossa classe Calculadora, com o sufixo Test, ficaria:CalculadoraTest sendo assim sabemos que é uma classe de teste
