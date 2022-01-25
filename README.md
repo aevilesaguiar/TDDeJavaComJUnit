@@ -37,3 +37,20 @@ o conceito de TDD, desenvolvimento guiado por testes,
 - Foco em testes de unidade(Testes unitários) o coração do JUnit
 
 **Obs:No JUnit existe essa convenção de que o nome da classe é o mesmo nome da classe que você está testando, no caso da nossa classe Calculadora, com o sufixo Test, ficaria:CalculadoraTest sendo assim sabemos que é uma classe de teste. No JUnit cada venário vai virar um método de teste. Uma forma de adicionar o JUnit, e informar para ele o método que quero tstar é fazendo uma anotação @Test e ativá-la, como é uma biblioteca padrão adiciona. 
+
+**Explicando:**
+Exemplo, se você passar um valor de delta de 0.01, o JUnit vai lançar um erro se abs(expected - actual) > 0.01.
+Não é recomendado, veja se o uso de double é necessário. Muita gente usa essas variáveis sem pensar quando os valores na verdade poderiam ser inteiros como int ou long.
+Segundo, para cálculos onde a precisão é importante, pense em usar BigDecimal, que embora seja mais lento não sofre dos problemas de representação binária.
+
+
+Ex: 
+double valorEsperado = 2.5;
+double valorRetornado = metodoQualquer();
+Assert.assertEquals(valorEsperado, valorRetornado);
+
+Nesse exemplo anterior se o valor retornado do método fosse 2.499999999999 o teste falharia, mas ao fazer assim:
+
+Assert.assertEquals(valorEsperado, valorRetornado, 0.1);
+O teste passaria, pois a diferença entre os doubles não superou o delta de 0.1
+
