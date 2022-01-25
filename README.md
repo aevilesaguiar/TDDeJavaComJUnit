@@ -9,3 +9,17 @@ o conceito de TDD, desenvolvimento guiado por testes,
 - Aprenda a escrever testes automatizados com JUnit
 - Aprenda a utilizar o processo de TDD ao escrever testes automatizados
 - Conheça as principais anotações e recursos do JUnit
+
+## Observação
+
+- Testes Manuais
+-
+    -  Automatização
+    -  Sujeitos a falhas(Fator Humano)
+- Testes Automatizados
+
+    - Automatização
+    - Feedback mais rápido
+    - Segurança ao mexer no código
+    - Favorece a melhoria no código(refactoring) 
+    - 
