@@ -54,3 +54,7 @@ Nesse exemplo anterior se o valor retornado do método fosse 2.499999999999 o te
 Assert.assertEquals(valorEsperado, valorRetornado, 0.1);<br/>
 O teste passaria, pois a diferença entre os doubles não superou o delta de 0.1<br/>
 
+**O JUnit tem uma classe chamada Assert e essa classe tem vários métodos estaticos**
+Ex: Assert.assertEquals(10,soma);
+
+
