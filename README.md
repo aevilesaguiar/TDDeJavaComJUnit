@@ -27,3 +27,9 @@ o conceito de TDD, desenvolvimento guiado por testes,
 - Principais vantagens do uso de testes automatizados:
   - Garantir que o código da aplicação atende corretamente aos requisitos de negócio.(Os testes automatizados ajudam a manter a qualidade da aplicação, pois validam se os requisitos de negócio estão sendo atendidos conforme o esperado.)
   - Facilitar a manutenção do software.(Os testes automatizados ajudam a manter a qualidade da aplicação, pois validam se os requisitos de negócio estão sendo atendidos conforme o esperado.)
+
+## JUnit 
+
+- Biblioteca padrão para escrita de testes automatizados**
+- Criado em 1995 por kent Beck e Erich Gamma 
+- Biblioteca gratuita open Source [Código fonte- JUnit](https://github.com/junit-team/junit-team.github.io/).
