@@ -1,4 +1,4 @@
-# TDDeJavaComJUnit - Curso Alura
+# TDD e Java: Testes automatizados com JUnit - Curso Alura
 
 ## Como funcionam os testes automatizados,aprender como instalar, configurar o JUnit, como escrever os testes automatizados, entender 
 o conceito de TDD, desenvolvimento guiado por testes,
