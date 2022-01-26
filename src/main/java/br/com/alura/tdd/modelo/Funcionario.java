@@ -20,6 +20,7 @@ public class Funcionario {
 		return nome;
 	}
 
+	
 	public LocalDate getDataAdmissao() {
 		return dataAdmissao;
 	}
