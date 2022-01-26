@@ -68,3 +68,16 @@ Ex: Assert.assertEquals(10,soma);
 
 obs: ciclo do TDD faz o teste de software e implementa e refatora(quando necessário). Teste é uma rede de segurança.
 
+**Aprendemos que uma das etapas do TDD é chamada de refatoração. Quando devemos realizar tal etapa ao desenvolver uma funcionalidade com TDD?**
+Quando a qualidade do código estiver ruim.A refatoração nos ajuda a manter a qualidade do código, algo extremamente importante para a manutenção de uma aplicação.
+
+**Vantagens de usar o TDD?**
+
+- Código sai "testado", pois iniciamos o desenvolvimento pelo o teste e depois a immplementação;
+- Evita teste "viciado" na implementação;
+- Refatoração faz parte do processo, é uma boa prática;
+- Ajuda a manter o foco;
+- Temos uma tendencia em escrever um código mais simples;
+
+**Quando utilizar o TDD?**
+Quando vamos implemetar um código dificil, com mais design, para codigos que eu tenho dúvidas como desenvolver
