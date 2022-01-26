@@ -60,4 +60,33 @@ Ex: Assert.assertEquals(10,soma);
 **Por qual motivo devemos utilizar os métodos estáticos assert do JUnit, como por exemplo o assertEquals?
 - Para validar se a implementação atende aos requisitos esperados. Os métodos assert nos permitem verificar se a classe testada está executando seu comportamento conforme o esperado.
 
+## TDD(Test Driven Development)
 
+ Fazer o fluxo invertido,primeiro começamos pelo teste, começamos escrevendo o teste automatizado e depois fazemos o código, depois que fazemos a implementação.
+
+<img src="https://user-images.githubusercontent.com/52088444/151159555-d6bf5cae-6d59-4253-b894-4d5e6f77c5ef.png" width="45%"></img> 
+
+obs: ciclo do TDD faz o teste de software e implementa e refatora(quando necessário). Teste é uma rede de segurança.
+
+**Aprendemos que uma das etapas do TDD é chamada de refatoração. Quando devemos realizar tal etapa ao desenvolver uma funcionalidade com TDD?**
+Quando a qualidade do código estiver ruim.A refatoração nos ajuda a manter a qualidade do código, algo extremamente importante para a manutenção de uma aplicação.
+
+**Vantagens de usar o TDD?**
+
+- Código sai "testado", pois iniciamos o desenvolvimento pelo o teste e depois a immplementação;
+- Evita teste "viciado" na implementação;
+- Refatoração faz parte do processo, é uma boa prática;
+- Ajuda a manter o foco;
+- Temos uma tendencia em escrever um código mais simples;
+
+**Quando utilizar o TDD?**
+Quando vamos implemetar um código dificil, com mais design, para codigos que eu tenho dúvidas como desenvolver
+
+**Qual a maneira correta de testar um método que lança exception?**
+O 'assertThrows' serve para verificar se uma exception foi lançada ao chamar um método.
+
+**método private não se testa, ele é utilitário, ou seja são usados em outros métodos e já testamos , não alterar o modificador de acesso**
+
+## O que testar numa aplicação?
+
+Em um projeto não é necessário testar tudo, e sim testar na aplicação coisas que mudam com frequencia, classes que contenham regras de negócios; O que não for necessário não faça teste.
