@@ -81,3 +81,12 @@ Quando a qualidade do código estiver ruim.A refatoração nos ajuda a manter a 
 
 **Quando utilizar o TDD?**
 Quando vamos implemetar um código dificil, com mais design, para codigos que eu tenho dúvidas como desenvolver
+
+**Qual a maneira correta de testar um método que lança exception?**
+O 'assertThrows' serve para verificar se uma exception foi lançada ao chamar um método.
+
+**método private não se testa, ele é utilitário, ou seja são usados em outros métodos e já testamos , não alterar o modificador de acesso**
+
+## O que testar numa aplicação?
+
+Em um projeto não é necessário testar tudo, e sim testar na aplicação coisas que mudam com frequencia, classes que contenham regras de negócios; O que não for necessário não faça teste.
