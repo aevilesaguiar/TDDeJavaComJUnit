@@ -60,4 +60,11 @@ Ex: Assert.assertEquals(10,soma);
 **Por qual motivo devemos utilizar os métodos estáticos assert do JUnit, como por exemplo o assertEquals?
 - Para validar se a implementação atende aos requisitos esperados. Os métodos assert nos permitem verificar se a classe testada está executando seu comportamento conforme o esperado.
 
+## TDD(Test Driven Development)
+
+ Fazer o fluxo invertido,primeiro começamos pelo teste, começamos escrevendo o teste automatizado e depois fazemos o código, depois que fazemos a implementação.
+
+<img src="https://user-images.githubusercontent.com/52088444/151159555-d6bf5cae-6d59-4253-b894-4d5e6f77c5ef.png" width="45%"></img> 
+
+obs: ciclo do TDD faz o teste de software e implementa e refatora(quando necessário). Teste é uma rede de segurança.
 
